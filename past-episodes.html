@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Podcast Psicologica-MENTE</title>
+    <link rel='icon' href='images/favicon.ico' type='image/x-icon'/>
+    <script src="https://kit.fontawesome.com/7eb03d586c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu-container">
+            <input type="checkbox" id="menu">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#last-episodes-container-english">Episodios en Inglés</a></li>
+                <li><a href="index.html#last-episodes-container-spanish">Episodios en Español</a></li>
+                <li><a href="past-episodes.html">Episodios pasados</a></li>
+                <li><a href="index.html#topics-container">Temas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <label for="menu" class="menu-container" id="menu-icon-container">
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                    <span class="menu-icon"></span>
+                </label>
+        </nav>
+    </header>
+    <main>
+        <section class="g-section1-container">
+            <h1>Psicológica <img src="images/brain.svg" alt="mente" id="mente"></h1>
+            <p id="g-section1-1"><span>Psicológica-MENTE</span> es una página que te muestra diferentes podcast para aprender los últimos avances en psicología científica y lo mejor es que puedes elegir contenido en inglés y en español.</p>
+            <a class="button-wo-shadow" href="#last-episodes-container-english" id="g-section1-2">Contenido en Inglés</a>
+            <a class="button-wo-shadow" href="#last-episodes-container-spanish" id="g-section1-3">Contenido en Español</a>
+            <div class="svg-container" id="svg-container-left">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <circle fill="white" cx="0" cy="100" r="100" />
+                    <circle fill="white" cx="200" cy="100" r="100" />
+                </svg>
+            </div>
+            <div class="svg-container" id="svg-container-rigth">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" preserveAspectRatio="none">
+                    <circle fill="white" cx="0" cy="100" r="100" />
+                    <circle fill="white" cx="200" cy="100" r="100" />
+                </svg>
+            </div>
+        </section>
+        <section>
+            <div id="last-episodes-container-english">
+                <div class="episodes-english">
+                    <h2 class="white-tittle">Episodios pasados</h2>
+                    <div class="episodes-container">
+                        <h3>Episode 92: The Psychology of Design</h3>
+                        <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/11665412/height/90/theme/custom/thumbnail/no/direction/backward/render-playlist/no/custom-color/87A93A/"></iframe>
+                    </div>
+                    <div class="episodes-container">
+                        <h3>Bonus Episode: The Psychology of Esports</h3>
+                        <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/11469035/height/90/theme/custom/thumbnail/no/direction/backward/render-playlist/no/custom-color/87A93A/"></iframe>
+                    </div>
+                    <a href="index.html#last-episodes-container-english" class="button-white" id="past-episodes-english">Últimos episodios</a>
+                </div>
+
+            </div>
+            <div id="last-episodes-container-spanish">
+                <div class="episodes-spanish">
+                    <h2 class="white-tittle">Episodios pasados</h2>
+                    <div class="episodes-container">
+                        <h3>Episodio 110: El síndrome de Wendy y de Peter Pan</h3>
+                        <iframe src="https://widget.spreaker.com/player?episode_id=19691616&theme=light&autoplay=false&playlist=false"></iframe>
+                    </div>
+                    <div class="episodes-container">
+                        <h3>Episodio 109: Cómo llevar mejor una mala situación económica</h3>
+                        <iframe src="https://widget.spreaker.com/player?episode_id=19619484&theme=light&autoplay=false&playlist=false"></iframe>
+                    </div>
+                    <a href="index.html#last-episodes-container-english" class="button-white" id="past-episodes-spanish">Últimos episodios</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <p>© 2019 — Psicologica-MENTE</p>
+        <ul>
+            <li><a href="http://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a></li>
+            <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="http://www.telegram.com" target="_blank"><i class="fab fa-telegram"></i></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
